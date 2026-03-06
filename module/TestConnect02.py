@@ -1,4 +1,4 @@
-from TestConnect import PlcData
+from .TestConnect import PlcData
 
 class Plc:
     def __init__(self):
