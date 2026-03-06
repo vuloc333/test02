@@ -1,0 +1,5 @@
+import snap7
+client = snap7.client.Client()
+# Lấy danh sách tất cả các hàm không có dấu gạch dưới (hàm public)
+functions = [f for f in dir(client) if not f.startswith('_')]
+print(functions)
